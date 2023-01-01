@@ -26,8 +26,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.090455, y: 2.4644685, z: -1.2645974}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 690069636789309653}
+  - {fileID: 4482082022934914857}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -88,8 +89,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52316102331f93141a971f14293ab314, type: 3}
---- !u!4 &690069636789309653 stripped
+--- !u!4 &4482082022934914857 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 3496949520605818738, guid: 52316102331f93141a971f14293ab314, type: 3}
+  m_CorrespondingSourceObject: {fileID: 515585708140894350, guid: 52316102331f93141a971f14293ab314, type: 3}
   m_PrefabInstance: {fileID: 4112973528724324263}
   m_PrefabAsset: {fileID: 0}
