@@ -19,6 +19,6 @@ public class RacketController : MonoBehaviour
 
     void OnCollisionEnter()
     {
-        m_Rigidbody.AddForce(transform.up * m_Thrust * 0.20f + transform.forward * m_Thrust * 4f);
+        m_Rigidbody.AddForce(transform.up * m_Thrust * 0.75f + transform.forward * m_Thrust * 4f);
     }
 }
