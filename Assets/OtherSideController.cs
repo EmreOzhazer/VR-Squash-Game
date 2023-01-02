@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RacketController : MonoBehaviour
+public class OtherSideController : MonoBehaviour
 {
-    [SerializeField] Rigidbody m_Rigidbody; 
+   
+    [SerializeField] Rigidbody m_Rigidbody;
     [SerializeField] float m_Thrust;
 
     void Start()
@@ -19,6 +20,6 @@ public class RacketController : MonoBehaviour
 
     void OnCollisionEnter()
     {
-        m_Rigidbody.AddForce(transform.up * m_Thrust * 0.75f + transform.forward * m_Thrust * 2f);
+        m_Rigidbody.AddForce(-transform.up * m_Thrust * 0.75f + -transform.forward * m_Thrust * 2f);
     }
 }
