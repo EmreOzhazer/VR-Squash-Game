@@ -22,8 +22,8 @@ public class ScoreHolder : MonoBehaviour
 
     }
 
-    void writeText()
-    {
-        Tm.text += "HELLO ";
-    }
+    // void writeText()-
+    // {
+    //     Tm.text += "HELLO ";
+    // }
 }
