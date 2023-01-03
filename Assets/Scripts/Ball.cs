@@ -21,6 +21,7 @@ public class Ball : MonoBehaviour
 
     void OnCollisionEnter()
     {
+        
         isHit = true;
     }
 }
