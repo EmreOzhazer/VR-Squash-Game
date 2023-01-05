@@ -9,6 +9,10 @@ TagManager:
   - Ball
   - Out
   - Ground
+  - scorearea
+  - 100
+  - 200
+  - 250
   layers:
   - Default
   - TransparentFX
